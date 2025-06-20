@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Merriweather&family=Quicksand&display=swap');
+@import "tailwindcss";
+
+:root {
+
+  /* custom colours */
+  --offwhite: #F9F4EE;
+  --beige: #F5E7DA;
+  --blue: #82AAC4;
+  --caramel: #E3C299;
+  --green: #BFC69C;
+  --brown: #6B5A53;
+  --red: #DA736C;
+
+  /* fonts */
+  --font-sans: 'Quicksand', sans-serif;
+  --font-serif: 'Merriweather', serif;
+  --font-hand: 'Gaegu', cursive;
+
+  font-family: var(--font-sans);
+  color: var(--brown);
+  font-weight: 600;
+  font-size: medium;
+  background-color: var(--offwhite);
+  margin: 0;
+  min-height: 100vh;
+  padding: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  font-size: x-large;
+  font-weight: 700;
+  color: var(--green);
+}
+
+a {
+  font-weight: 500;
+  color: var(--blue);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--green);
+}
+
+button {
+  padding: 0.4em 1.0em;
+  border-radius: 0.5rem;
+  font-size: smaller;
+  background-color: var(--blue);
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  transition: background-color 0.25s ease;
+}
+button:hover {
+  background-color: var(--caramel);
+}
