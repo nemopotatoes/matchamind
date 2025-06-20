@@ -1,6 +1,6 @@
 # 🍵 matchamind [WIP]
 
-a minimalist web-based task scheduler built with react and tailwind CSS. inspired by my seemingly endless todo lists and love for cafes, **matchamind** is a helps you shift tasks aroud important anchors like lunch or rest, in a gentle way as if you're running your own cafe. 
+a minimalist web-based task scheduler built with react and tailwind CSS. inspired by my seemingly endless todo lists and love for cafes, **matchamind** helps you shift tasks aroud important anchors like lunch or rest, as if you're running your own cafe.
 
 --- 
 
@@ -16,12 +16,15 @@ a minimalist web-based task scheduler built with react and tailwind CSS. inspire
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
+---
+
 ## 🍰 roadmap
-- [x] basic task form
+- [ ] basic task form
 - [ ] task list display
 - [ ] day view
 - [ ] drag & drop rescheduling
 
-## 💌 credits
+---
 
+## 💌 credits
 made with love by Jes ☕🧸
