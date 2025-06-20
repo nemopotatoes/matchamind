@@ -1,12 +1,27 @@
-# React + Vite
+# 🍵 matchamind [WIP]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+a minimalist web-based task scheduler built with react and tailwind CSS. inspired by my seemingly endless todo lists and love for cafes, **matchamind** is a helps you shift tasks aroud important anchors like lunch or rest, in a gentle way as if you're running your own cafe. 
 
-Currently, two official plugins are available:
+--- 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🍞 features
+- add tasks with their name, duration, and priority
+- indicate cafe opening hours
+- indicate cafe break hours
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ☕ tech stack
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 🍰 roadmap
+- [x] basic task form
+- [ ] task list display
+- [ ] day view
+- [ ] drag & drop rescheduling
+
+## 💌 credits
+
+made with love by Jes ☕🧸
