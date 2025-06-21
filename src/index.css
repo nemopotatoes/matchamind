@@ -3,7 +3,6 @@
 
 :root {
 
-  /* custom colours */
   --offwhite: #F9F4EE;
   --beige: #F5E7DA;
   --blue: #82AAC4;
@@ -12,12 +11,11 @@
   --brown: #6B5A53;
   --red: #DA736C;
 
-  /* fonts */
-  --font-sans: 'Quicksand', sans-serif;
-  --font-serif: 'Merriweather', serif;
-  --font-hand: 'Gaegu', cursive;
+  --quicksand: 'Quicksand', sans-serif;
+  --merriweather: 'Merriweather', serif;
+  --gaegu: 'Gaegu', cursive;
 
-  font-family: var(--font-sans);
+  font-family: var(--quicksand);
   color: var(--brown);
   font-weight: 600;
   font-size: medium;
@@ -30,7 +28,7 @@
 }
 
 h1, h2, h3 {
-  font-family: var(--font-serif);
+  font-family: var(--merriweather);
   font-size: x-large;
   font-weight: 700;
   color: var(--green);

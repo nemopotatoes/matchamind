@@ -3,7 +3,7 @@ export default function TaskNameInput({ value, onChange}) {
         <div>
             <label 
                 className="block mb-1 text-sm font-medium" 
-                style={{ fontFamily: 'var(--font-serif)' }}>
+                style={{ fontFamily: 'var(--merriweather)' }}>
                 Task Name
             </label>
             <input 
